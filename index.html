@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BYTES | Next-Gen Gaming</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="#" class="nav-link">PRODUCT</a>
+            <a href="#" class="nav-link">THE TECH</a>
+            <a href="#" class="nav-link">CLOUD GAMING</a>
+        </div>
+        <div class="nav-right">
+            <span class="brand-tag">#BYTES</span>
+            <span class="controller-label">CONTROLLER</span>
+        </div>
+    </nav>
+
+    <!-- Main Content Container -->
+    <main class="main-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <a href="#" class="sidebar-link active">DEVICES</a>
+            <a href="#" class="sidebar-link">FEATURES</a>
+            <a href="#" class="sidebar-link">TECH SPECS</a>
+            <a href="#" class="sidebar-link">FAQ</a>
+        </aside>
+
+        <!-- 3D Canvas Container -->
+        <div class="canvas-container" id="canvas-container">
+            <canvas id="webgl-canvas"></canvas>
+        </div>
+
+        <!-- Product Info -->
+        <div class="product-info">
+            <div class="specs">
+                <div class="spec-item">
+                    <span class="spec-label">Diagonal</span>
+                    <span class="spec-value">6.1"</span>
+                </div>
+                <div class="spec-item">
+                    <span class="spec-label">Aspect</span>
+                    <span class="spec-value">4:1</span>
+                </div>
+                <div class="spec-item">
+                    <span class="spec-label">Port</span>
+                    <span class="spec-value">USB-C</span>
+                </div>
+            </div>
+            <div class="compatibility">
+                <p>Compatible with<br>Android and iOS<br>devices</p>
+            </div>
+        </div>
+
+        <!-- Brand & CTA -->
+        <div class="brand-section">
+            <h1 class="brand-name">BYTES</h1>
+            <div class="divider"></div>
+            <a href="#" class="preorder-btn">
+                <span>PRE-ORDER</span>
+                <span class="price">$199.00</span>
+                <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </a>
+        </div>
+    </main>
+
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
